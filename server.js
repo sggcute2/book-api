@@ -24,7 +24,7 @@ db.once('open', () => {
 });
 
 // Use book routes
-app.use('/books', bookRoutes);
+app.use('/api/books', bookRoutes);
 
 // Start the server
 app.listen(PORT, () => {
